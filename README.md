@@ -1,25 +1,27 @@
-Project Todo dApp:
+Project: Todo dApp:
 
--> A todo should have:
+- A todo should have:
+    1. integer id
+    2. string content
+    3. bool completed
+    4. address creator
 
-int ide
-string contebt
-bool completed
-address creator
--> List of Todos (Arrays)
+- List of Todos (Array)
 
--> Maps: address => integer || int will gonna represents the count to todos made by a specific access
+- Maps:
+    address => integer ||| integer will gonna represent the count to todos made by a specific account address.
 
--> Function Modifiers: onlyCreator
+- Function modifiers: 
+    onlyCreator()
 
--> Function: write Function:
+- Functions:
+    Write Functions:
+    1. createTodo
+    2. toggleCompleted
+    3. updateTodo
+    4. deleteTodo
 
-creareTodo
-toggleCompleted
-updateTodo
-deleteTodo
-Read Function:
-
-getAllTodos
-getuserTodos
-getTotalTodoCount
+    Read Functions:
+    1. getAllTodos
+    2. getUserTodos
+    3. getTotalTodoCount
